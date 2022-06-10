@@ -2,6 +2,7 @@
 > Цитата
 => subdir1/subsubdir2/example.gmi main
 
+=> subdir1/subsubdir1/b/1.0.c C file
 ```
  _░▒███████
  ░██▓▒░░▒▓██

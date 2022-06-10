@@ -9,7 +9,7 @@ namespace fs = std::filesystem;
  * Блок задач копирования фиксированного размера.
  */
 struct CopyBatch {
-    static const size_t kNumBuckets = 16;
+    static const size_t kNumBuckets = 12;
 
     bool Add(const fs::directory_entry &file) {
         if (ptr == kNumBuckets) {
